@@ -1,0 +1,192 @@
+﻿namespace ATM
+{
+    partial class Withdraw
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            panel1 = new Panel();
+            label1 = new Label();
+            label2 = new Label();
+            label4 = new Label();
+            wdamtTbl = new TextBox();
+            label3 = new Label();
+            balancelbl = new Label();
+            button2 = new Button();
+            button1 = new Button();
+            panel2 = new Panel();
+            panel1.SuspendLayout();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ControlDark;
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(label2);
+            panel1.Dock = DockStyle.Top;
+            panel1.ForeColor = SystemColors.ControlText;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(555, 59);
+            panel1.TabIndex = 37;
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(517, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(39, 43);
+            label1.TabIndex = 3;
+            label1.Text = "X";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            label2.Enabled = false;
+            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(67, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(417, 43);
+            label2.TabIndex = 3;
+            label2.Text = "ATM MANAGEMENT SYSTEM";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            label4.Enabled = false;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(219, 72);
+            label4.Name = "label4";
+            label4.Size = new Size(128, 29);
+            label4.TabIndex = 45;
+            label4.Text = "WITHDRAW";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // wdamtTbl
+            // 
+            wdamtTbl.Location = new Point(247, 156);
+            wdamtTbl.Name = "wdamtTbl";
+            wdamtTbl.Size = new Size(203, 27);
+            wdamtTbl.TabIndex = 44;
+            // 
+            // label3
+            // 
+            label3.Enabled = false;
+            label3.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(109, 156);
+            label3.Name = "label3";
+            label3.Size = new Size(133, 29);
+            label3.TabIndex = 43;
+            label3.Text = "AMOUNT:";
+            label3.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // balancelbl
+            // 
+            balancelbl.Enabled = false;
+            balancelbl.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            balancelbl.Location = new Point(168, 113);
+            balancelbl.Name = "balancelbl";
+            balancelbl.Size = new Size(225, 29);
+            balancelbl.TabIndex = 46;
+            balancelbl.Text = "AVAILABLE BALANCE";
+            balancelbl.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            button2.AutoEllipsis = true;
+            button2.BackColor = SystemColors.ControlDarkDark;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = SystemColors.ActiveCaptionText;
+            button2.Location = new Point(302, 201);
+            button2.Name = "button2";
+            button2.Size = new Size(97, 35);
+            button2.TabIndex = 48;
+            button2.Text = "BACK";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.AutoEllipsis = true;
+            button1.BackColor = SystemColors.ControlDarkDark;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(134, 201);
+            button1.Name = "button1";
+            button1.Size = new Size(107, 35);
+            button1.TabIndex = 47;
+            button1.Text = "WITHDRAW";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = SystemColors.ControlDark;
+            panel2.Dock = DockStyle.Bottom;
+            panel2.Location = new Point(0, 250);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(555, 21);
+            panel2.TabIndex = 49;
+            // 
+            // Withdraw
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(555, 271);
+            Controls.Add(panel2);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(balancelbl);
+            Controls.Add(label4);
+            Controls.Add(wdamtTbl);
+            Controls.Add(label3);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Withdraw";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Withdraw";
+            Load += Withdraw_Load;
+            panel1.ResumeLayout(false);
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private Label label1;
+        private Label label2;
+        private Label label4;
+        private TextBox wdamtTbl;
+        private Label label3;
+        private Label balancelbl;
+        private Button button2;
+        private Button button1;
+        private Panel panel2;
+    }
+}
